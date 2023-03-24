@@ -1,0 +1,19 @@
+body {
+  padding: 0px margin: 0px
+  background-image:url(../image/tree.png);
+}
+
+
+/* Header **/
+header {
+  background-color: cadetblue;
+  border-bottom: 8px inset brown;
+
+}
+
+footer {
+  text-align: center;
+  color:aqua;
+  background-color:black;
+  height:50px;
+}
