@@ -77,7 +77,6 @@ header a:hover{
 #showcase{
   background-image:url(file:///C:/Users/datdang/Desktop/Ti%E1%BA%BFn%20%C4%91%E1%BA%B9p%20trai/showcase.jpg);
   background-repeat: no-repeat; 
-  background-repeat: no-repeat;
     background-size: 1346px 400px;
 }
 
