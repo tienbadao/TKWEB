@@ -80,9 +80,9 @@ header a:hover{
 
 /* Showcase */
 #showcase{
-    background-image:url(file:///C:/Users/datdang/Desktop/Ti%E1%BA%BFn%20%C4%91%E1%BA%B9p%20trai/showcase.jpg);
+   background-image:url(https://corkprof.000webhostapp.com/showcase.jpg);
     background-repeat: no-repeat; 
-    background-size: 1346px 400px;
+    background-size: 1560px 400px;
     padding: 0 0 10px 0;
 }
 
