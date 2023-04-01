@@ -1,0 +1,165 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4
+}
+
+/* Global */
+.container{
+    padding: 1px 20px 0 100px;
+}
+
+ul{
+    list-style: none;
+    padding: 0 0 0 0;
+}
+
+.button_1{
+    height: 43px;
+    width: 90px;
+    background-color:aqua;
+    color: #ffffff;
+  
+}
+
+.dark{
+    background-color: cadetblue;
+    padding: 15px 15px 15px 15px;
+}
+
+/* Header **/
+header{
+    background-color:rgb(41, 35, 35);
+    border-bottom: 4px inset rgb(234, 76, 76);
+    padding-top: 0px;
+}
+
+header a{
+    text-decoration: none;
+    color:azure;
+    text-transform: uppercase;
+}
+
+header li{
+    display: inline;
+    padding-right: 10px;
+    font-size: 17px;
+}
+
+header #branding{
+    background-color: rgb(41, 35, 35);
+    height: 20px;
+
+}
+
+header #branding h1{
+    background-color: rgb(41, 35, 35);
+    color:azure;
+    padding-top: 31px;
+
+}
+
+header nav{
+    position: inherit;
+    transform: translate(0);
+    opacity: 1;
+    justify-content: flex-end;
+    display: flex;
+    font-size: 20px;
+
+}
+
+header .highlight, header .current a{
+    color:orangered;
+}
+
+header a:hover{
+    color:orangered;
+}
+
+/* Showcase */
+#showcase{
+    background-image:url(https://corkprof.000webhostapp.com/showcase.jpg);
+    background-repeat: no-repeat; 
+    background-size: 1560px 400px;
+    padding: 0 0 10px 0;
+}
+
+#showcase h1{
+    text-align: center;
+    font-size: 40px;
+    color: azure;
+    padding: 30px 0 0 0;
+}
+
+#showcase p{
+    text-align:center;
+    color:azure;
+    padding-bottom: 150px;
+}
+
+/* Newsletter */
+#newsletter{
+  background-color: crimson;
+  
+  
+}
+
+#newsletter h1{
+  color: azure;
+    transform: translatey(22px);
+}
+
+#newsletter form {
+    transform: translatey(-40px);
+  padding-left: 64%;
+
+}
+
+#newsletter input[type="email"]{
+    line-height: 1.5;   
+    padding: 10px 150px 11px 0px;
+    display: inline-block;
+
+}
+/* Boxes */
+#boxes{
+    text-align: center;
+    font-size: 15px;
+}
+
+#boxes .box{
+    display: inline-block; 
+    vertical-align: top; 
+    width: 30%; 
+    padding-top: 13px;
+}
+
+#boxes .box img{
+    width: 30%;
+}
+/* Sidebar */
+aside#sidebar{
+    position: absolute;
+    top: 246px;
+    right: 0;
+    width: 300px;
+    margin-right: 20px;    
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    padding-right: 83px;
+}
+
+/* Main-col */
+article#main-col{
+  padding-right: 30%;
+}
+
+footer{
+    color: azure;
+    background-color:rgb(234, 76, 76);
+    text-align: center;
+    padding: 15px 0 15px 0; 
+}
